@@ -27,7 +27,7 @@ int main(void)
     length = strlen(hangmanWord);
 
     // Hide the word and prepare the output
-    // system("cls"); // Uncomment if on Windows and want to clear screen, else ignore
+    
     for (i = 0; i < length; i++)
         hangmanOutput[i] = '_';
     hangmanOutput[length] = '\0';
